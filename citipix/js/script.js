@@ -1,7 +1,7 @@
 //Don't run javascript until page has loaded
 $(document).ready(function(){
 
-	var button = $("#submit-btn")
+	var button = $("#submit-btn").attr("type", "submit")
 	var cityInput = $("#city-type")
 
 	// User clicks on button to call the anonymous function that changes the background image
